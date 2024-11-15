@@ -41,39 +41,38 @@ function Home() {
                 </div>
             </div>
             <div id="about" className="container row-f section">
-                <div className="container col-f">
-                    <div className="container row-f flex-1 f-center f-wrap">
-                        <div className="container col-f flex-1-combo f-center">
-                            <h2 style={{ color: 'yellow' }}>About Me</h2>
-                            <div>
-                                <p style={{ textAlign: 'center', fontSize: '120%', fontWeight: '500' }}>"I am Ahmad Akbar, an active undergraduate student, majoring in Information Systems, Dinamika Bangsa University. I am interested in visual science and computer science, and technology. I am interested in web development."</p>
-                            </div>
-                        </div>
-                        <div className="container col-f flex-1-combo f-center">
-                            <h2 style={{ color: 'yellow' }}>These are My Skills.</h2>
-                            <p style={{ textAlign: 'center', fontSize: '125%', fontWeight: '500' }}>
-                                "My skills lie in the field of multimedia and technology, particularly in website development, but still in the learning stage."
-                            </p>
-                            <div className="grid grid-auto-col">
-                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/DaVinci_Resolve_17_logo.svg`} alt="" />
-                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/Inkscape_Logo.svg`} alt="" />
-                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/Figma.svg`} alt="" />
-                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/HTML5 Logo.svg`} alt="" />
-                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/CSS3_logo.svg`} alt="" />
-                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/Unofficial_JavaScript_logo_2.svg`} alt="" />
-                                <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/logos--supabase-icon.svg`} alt="" />
-                            </div>
+                <div className="container col-f f-evenly">
+                    <div className="container col-f f-center">
+                        <h2 style={{ color: 'yellow' }}>About Me</h2>
+                        <div>
+                            <p style={{ textAlign: 'center', fontSize: '120%', fontWeight: '500' }}>"I am Ahmad Akbar, an active undergraduate student, majoring in Information Systems, Dinamika Bangsa University. I am interested in visual science and computer science, and technology. I am interested in web development."</p>
                         </div>
                     </div>
-                    <div className="container col-f flex-1 f-center">
+                    <div className="container col-f f-center">
+                        <h2 style={{ color: 'yellow' }}>These are My Skills.</h2>
+                        <p style={{ textAlign: 'center', fontSize: '125%', fontWeight: '500' }}>
+                            "My skills lie in the field of multimedia and technology, particularly in website development, but still in the learning stage."
+                        </p>
+                        <div className="grid grid-auto-col">
+                            <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/DaVinci_Resolve_17_logo.svg`} alt="" />
+                            <img style={{ height: '38px' }} src={`${myUrl}/asset/icons/Inkscape_Logo.svg`} alt="" />
+                            <img style={{ height: '30px' }} src={`${myUrl}/asset/icons/blender-2.svg`} alt="" />
+                            <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/Figma.svg`} alt="" />
+                            <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/HTML5 Logo.svg`} alt="" />
+                            <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/CSS3_logo.svg`} alt="" />
+                            <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/Unofficial_JavaScript_logo_2.svg`} alt="" />
+                            <img style={{ height: '35px' }} src={`${myUrl}/asset/icons/logos--supabase-icon.svg`} alt="" />
+                        </div>
+                    </div>
+                    <div className="container col-f f-center">
                         <div className="container row-f flex-1">
                             <div className="container col-f f-center-c">
                                 <p>Check out my social media.</p>
                                 <div style={{ height: '50px', width: '100%', maxWidth: '300px' }} className="container row-f">
-                                    <Link target="blank" to='' title="GitHub : akbarvideoeditor03">
+                                    <Link target="blank" to='https://github.com/akbarvideoeditor03' title="GitHub : akbarvideoeditor03">
                                         <img className="img-icons" src={`${myUrl}/asset/icons/github.svg`} alt="" />
                                     </Link>
-                                    <Link target="blank" to='' title="Instagram : ahmadakbar03">
+                                    <Link target="blank" to='https://www.instagram.com/ahmadakbar03/' title="Instagram : ahmadakbar03">
                                         <img className="img-icons" src={`${myUrl}/asset/icons/instagram.svg`} alt="" />
                                     </Link>
                                     <Link target="blank" to='https://www.youtube.com/@ahmadakbar03' title="YouTube : Media Cara">

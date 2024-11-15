@@ -93,6 +93,7 @@
 .grid-auto-col {
     grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
     gap: 1rem;
+    align-items: center;
 }
 
 .lb {
